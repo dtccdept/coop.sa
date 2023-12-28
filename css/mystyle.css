@@ -1,0 +1,109 @@
+header{
+float:center;
+align-items: center;
+width:100%;
+height:180px;
+background-color:#0F7F7A;                          –  Represents the background color
+font-family:Arial, Helvetica, sans-serif;       –  Represents the font type
+font-style:normal;
+font-size:30px;                                      –  Represents the font size
+padding:50px 0 5px 25px;
+color:#FC0; 
+                                  –  Represents the text color
+}
+nav{
+float:left;
+width:100%;
+height:30px;
+background-color:whight;
+font-family:Tahoma, Geneva, sans-serif;
+font-weight: bold;
+font-size:12px;
+color:#333;
+padding:17px 0 3px 25px;
+}
+article{
+float:left;
+width:90%;
+font-family:Arial, Helvetica, sans-serif;
+font-style:normal;
+font-size:12px;
+line-height:21px;
+color:#CCC;
+padding:25px 25px 5px 25px;
+}
+aside{
+float:left;
+width:10%;
+font-family:Arial, Helvetica, sans-serif;
+font-style:normal;
+font-size:12px;
+color:#CCC;
+padding:25px 15px 10px 15px;
+line-height:16px;  –  To increase readability of the content, you can increase the overall line-height of text to 16px.
+}
+footer{
+clear:both;
+width:100;
+height:30px;
+background-color:#FC0;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:12px;
+color:#333;
+padding:20px 0 0 25px;
+}
+th {
+  text-align: center;
+}
+h3{
+font-style:normal;
+color:darkslategray;
+}
+td{
+    text-align: center;
+  }
+ label{
+font-style:#333;
+color:darkslategray;
+}
+div.mycontainer2 {
+  height:15%;
+  width:200%;
+  overflow:auto;
+ 
+}
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  align-items: center;
+  width:33%;  
+  float:left;
+   
+
+}
+.loginbox{
+	width: 320px;
+	height: auto;
+	box-sizing: border-box;
+	padding: 40px 30px;
+	background: #DCDCDC;
+	margin:2 auto;
+}
+body {
+  background-image: url('../image/bground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.imgh{
+  border: 1px solid black;
+  margin: 15px 60px 75px 85px;
+  background-color: lightblue;
+  height: 180px;
+  width: 30%;
+  position: absolute;
+}
+	

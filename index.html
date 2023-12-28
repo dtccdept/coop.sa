@@ -1,0 +1,33 @@
+<html lang="ar" dir="rtl" charset=”UTF-8″>
+	<head >
+           <meta  charset="utf-8" />
+                
+		<link rel="stylesheet" href="css/styyleIndex1.css">
+	</head>
+	<body>
+		<header>
+			<div class="divRight">
+			</div>
+		</header>
+
+		<div class="divForm">
+			<form action="Login.jsp" method="post">
+				<h1>تسجيل الدخول لنظام التدريب التعاوني</h1>
+				<br>
+				<hr/>
+				<br>
+				<div class="container">
+					<select  name="utype" required>
+    					<option value="" selected disabled>اختر نوع الحساب</option>
+    					<option value="1">منسق تدريب</option>
+    					<option value="2">متدرب</option>
+  					</select>
+					<input type="text" placeholder="أدخل اسم المستخدم" name="uname" required align="right">
+					<input type="password" placeholder="أدخل كلمة المرور" name="psw" required>
+				</div>
+					<button type="submit">دخول</button>
+				
+			</form>
+		</div>
+	</body>
+</html>
